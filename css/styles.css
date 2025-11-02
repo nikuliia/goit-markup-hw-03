@@ -9,7 +9,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #ffffff;
+  background-color: #fff;
   margin: 0;
 }
 
@@ -34,6 +34,37 @@ ul {
   padding-left: 0;
 }
 
+/* #endregion reset */
+
+/* #region common */
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 img {
   display: block;
   /* max-width: 100%;
@@ -45,14 +76,17 @@ a {
   color: #2e2f42;
 }
 
-/* #endregion reset */
-
-/* #region common */
-.container {
-  max-width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
+.list-title {
 }
+
+.section-prph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+  letter-spacing: 0.02em;
+}
+
 /* #endregion common */
 
 /* #region header */
@@ -153,7 +187,9 @@ a {
   color: #404bbf;
 }
 
-/* #region header */
+/* #endregion header */
+
+/* #region slogan */
 
 .page-title {
   color: #ffffff;
@@ -169,7 +205,7 @@ a {
   background-color: #2e2f42;
 }
 
-.main-btn {
+.section-slogan-btn {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -180,43 +216,59 @@ a {
   font-weight: 500;
 }
 
-.main-btn:hover,
-.main-btn:focus {
+.section-slogan-btn:hover,
+.section-slogan-btn:focus {
   background-color: #404bbf;
 }
 
 .section-title {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-align: center;
-  text-transform: capitalize;
-}
-
-.list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+/* #endregion slogan */
 
-.section-prph {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #434455;
-  letter-spacing: 0.02em;
+/* #region benefits */
+
+.section-benefits {
 }
+
+.benefits-list {
+}
+
+.benefits-item {
+}
+
+/* #endregion benefits */
+
+/* #region team */
 
 .section-team {
   background-color: #f4f4fd;
 }
 
-.team-info {
-  background-color: #ffffff;
+.team-list {
 }
+
+.item-team {
+}
+
+/* #endregion team */
+
+/* #region portfolio */
+
+.section-portfolio {
+}
+
+.list-portfolio {
+}
+
+.item-portfolio {
+}
+
+/* #endregion portfolio */
 
 /* #region footer */
 
