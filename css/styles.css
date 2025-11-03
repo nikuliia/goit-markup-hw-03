@@ -281,9 +281,10 @@ a {
   gap: 24px;
 }
 
-.list-item {
+.team-list-item {
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
+  overflow: hidden;
 }
 
 .team-info {
